@@ -28,4 +28,12 @@ const tests = (() => {
 	test('Divide two numbers.', () => {
 		expect(app.calculator.divide(6, 3)).toBe(2);
 	});
+
+	test('Encrypt a string.', () => {
+		expect(app.encrypt('j', 'Meet me on the dark side of the moon.')).toBe(
+			'VnnCvnxwCqnmjAtBrmnxoCqnvxxw'
+		);
+	});
 })();
+
+// encrypt('j', 'Meet me on the dark side of the moon.');
