@@ -34,6 +34,8 @@ const tests = (() => {
 			'VnnCvnxwCqnmjAtBrmnxoCqnvxxw'
 		);
 	});
-})();
 
-// encrypt('j', 'Meet me on the dark side of the moon.');
+	test('Evaluate an array.', () => {
+		expect(app.evaluateArray([1, 8, 3, 4, 2, 6])).toBe('');
+	});
+})();
