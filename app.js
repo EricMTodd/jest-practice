@@ -77,6 +77,8 @@ const functions = (() => {
 	};
 
 	const evaluateArray = (array) => {
+		array = [1, 8, 3, 4, 2, 6];
+		console.log(array);
 		let values = {
 			average: 0,
 			min: array[0],
@@ -111,7 +113,7 @@ const functions = (() => {
 		console.log(`values: ${JSON.stringify(values)}`);
 		return values;
 	};
-
+	evaluateArray();
 	return {
 		sayHello,
 		sum,
